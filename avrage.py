@@ -1,10 +1,12 @@
-tree1=45
-tree2=43
-tree3=65
-tree4=56
-tree5=78
+A = "sweter"
+B = "vest"
+C = "jaket"
+ 
+choice=input("Enter you choice: A=sweter B=vest  C=jaket:")
+if choice=="A":
 
-sum=tree1+tree2+tree3+tree4+tree5
-print ("the sum of 5trees are",sum)
-avrage=sum/5
-print("the avrages of 5/3 are",avrage)
+    print("its cold")
+elif choice=="B":
+    print("its summer")
+else:
+    print("wrong input!")
